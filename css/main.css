@@ -1,0 +1,409 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 18px;
+	padding: 0px;
+	margin: 0px;
+}
+
+div,p,input,button, form,span {
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	width: 0 auto;
+	margin: 0 auto;
+}
+
+
+.header{
+	width: 1520px;
+	height: 1300px;
+	margin: 0 auto;
+	background-image: url(../img/fon1.jpg);
+	background-size: 100%;
+	padding-top: 50px;
+
+	
+
+}
+.title{
+	margin-left: auto;
+    margin-right: auto;
+	width: 800px;
+	margin-top: 30px;
+	font-size: 50px;
+	text-align: center;
+	background: rgba(255, 255, 255, .5);
+	border-radius: 25px;
+	font-weight: 500;
+	margin-bottom: 250px;
+	padding: 20px;
+}
+
+.buttons{
+	text-align: center;
+	
+}
+.btn{
+	margin-left: auto;
+    margin-right: auto;
+	background: rgba(255, 255, 255, .7);
+	margin-bottom: 20px;
+	border-radius: 25px; 
+	font-size: 30px;
+	display: block;
+	width: 450px;
+	height: 50px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 30px;
+	transition: all 0.5s ease;
+}
+.btn:hover{
+	background: rgba(255, 255, 255, 1); 	
+}
+
+.btn1 {
+	margin-left: auto;
+    margin-right: 30px;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 10px; 
+	font-size: 20px;
+	display: block;
+	width: 300px;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	transition: all 0.5s ease;
+
+
+
+}
+.btn1:hover{
+	background: rgba(255, 255, 255, 1);
+}
+
+.vacancy{
+	background:rgba(255, 255, 255,1);
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+.title2{
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+.btn2 {
+	margin-left: auto;
+    margin-right: auto;
+	background: rgba(212, 169, 68, 0.3);
+	border-radius: 25px; 
+	font-size: 30px;
+	display: block;
+	width: 720px;
+	height: 40px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	transition: all 0.5s ease;
+}
+
+.btn2:hover{
+	background: rgba(212, 169, 68, 0.8);
+}
+
+.abs{
+	padding-left: 280px;
+	width: 1200px;
+	height: 500px;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 70px;
+
+}
+
+
+
+.announcement{
+	background: rgba(235,233,191,0.3);
+	border-radius: 15px; 
+	font-size: 15px;
+	width: 400px;
+	height: 200px;
+	border-left: 5px solid #D4A944;
+	margin: 40px 0;
+}
+
+.footer{
+	background: rgba(150,151,153,0.7);
+	width: 1520px;
+	height: 100px;
+
+}
+
+.background{
+	padding-top: 25px;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+
+}
+
+
+/*Выбор кто ты*/
+.header-vr{
+	margin-top: 50px;
+}
+
+.title_vr{
+	background: rgba(212,169,68,0.5);
+	width: 1540px;
+	height: 110px;
+	font-size: 60px;
+	font-weight: 300;
+	text-align: center;
+	padding-top:40px;
+}
+
+.var_vr{
+	margin-top: 100px;
+	margin-left: 400px;
+	width: 800px;
+	height: 800px;
+}
+
+.btn_vr{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+	background: rgba(235, 233, 191, 0.3);
+	border-radius: 25px; 
+	font-size: 48px;
+	display: block;
+	width: 720px;
+	height: 80px;
+	padding: 40px 0;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	transition: all 0.5s ease;
+}
+
+.btn_vr:hover{
+	background: rgba(235, 233, 191, 0.8);
+}
+
+/*Регистрация*/
+
+.header-rg{
+	margin-top: 40px;
+
+}
+
+.title_rg{
+	background: rgba(212,169,68,0.5);
+	width: 1540px;
+	height: 110px;
+	font-size: 60px;
+	font-weight: 300;
+	text-align: center;
+	padding-top:30px;
+}
+
+.form{
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 800px;
+	height: auto;
+	background: rgba(235, 233, 191, 0.3);
+	border-radius: 50px;
+
+}
+.input{
+	margin-left: 100px;
+	padding-left: 20px;
+    width: 600px;
+	height: 100px;
+	margin-top: 30px;
+	border-radius: 20px;
+	font-size: 30px;
+	border: none;
+	border-left: 5px solid #D4A944;
+
+}
+#btn_rg{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	width: 400px;
+}
+
+/*Создание вакансии*/
+.header-cv{
+	margin-top: 40px;
+}
+
+#cv{
+	height: 800px;
+
+}
+
+/*Создание услуги*/
+#cs{
+	height: 680px;
+
+}
+
+/* Доступные вакансии*/
+.header-av{
+	margin-top: 40px;
+}
+.av_vacancies{
+	width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.vacanci{
+	height: 200px;
+	width: 1000px;
+	background: rgba(235,233,191,0.3);
+	border-radius: 15px; 
+	border-left: 5px solid #D4A944;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	
+}
+.title_av{
+	font-size: 30px;
+	padding: 10px 20px;
+	margin: 0px;
+}
+.discription_av{
+	font-size: 15px;
+	padding: 20px 20px;
+	margin: 0px;
+}
+.salary_av{
+	font-size: 22px;
+	padding: 0px 40px;
+	margin: 0px;
+}
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Описание вакансии*/
+
+.header_vd{
+	margin-top: 40px;
+}
+.vd_vacanci{
+	width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.title_vd{
+	font-size: 24px;
+	padding: 10px 20px;
+	margin: 10px 0;
+}
+.discription_vd{
+	font-size: 22px;
+	background: rgba(235,233,191,0.5);
+	border-radius: 15px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+#btn_vd{
+margin-top: 40px;
+margin-bottom: 20px;
+}
+
+/*Личный кабинет работодателя*/
+
+.header_eo{
+	margin-top: 40px;
+}
+.EmpOff{
+	width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.EmpOff_ads{
+	width: 1000px;
+	background: rgba(235,233,191,0.3);
+	border-radius: 15px; 
+	border-left: 5px solid #D4A944;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#btn_eo{
+	font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 20px;
+	width: 120px;
+	height: auto;
+}
+
+/*Доступные услуги*/
+.header_as{
+	margin-top: 40px;
+}
+
+/*Описание услуги*/
+.header_sd{
+	margin-top: 40px;
+}
+
+/*Описание услуги*/
+.header_es{
+	margin-top: 40px;
+}
+
+
+
+#btn_g{
+	font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 20px;
+	width: 250px;
+	height: auto;
+}
+/*Личный кабинет пользователя*/
+
+.header_ue{
+	margin-top: 40px;
+}
+
+
+
+/*Вход*/
+
+.header_entr{
+	margin-top: 40px;
+}
+
+#reg{
+	width: 400px;
+	margin-left: auto;
+	padding: 10px;
+
+}
+#form_entr{
+	height: auto;
+}
